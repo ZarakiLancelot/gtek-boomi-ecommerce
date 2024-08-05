@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "Simple website to integrate boomi",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MigueMat4/gtek-boomi-ecommerce.git"
+  },
+  "keywords": [
+    "boomi",
+    "ipaas",
+    "api"
+  ],
+  "author": "GTEK Wave 3 Equipo 1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MigueMat4/gtek-boomi-ecommerce/issues"
+  },
+  "homepage": "https://github.com/MigueMat4/gtek-boomi-ecommerce#readme",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
