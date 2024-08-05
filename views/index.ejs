@@ -63,6 +63,7 @@
                             <th>Description</th>
                             <th>Received By Warehouse</th>
                             <th>Sent By Warehouse</th>
+                            <th>Delivered By Logistic</th>
                             <th>Status</th>
                             <th>Actions</th>
                         </tr>
@@ -77,6 +78,7 @@
                                     <td><%= order.description %></td>
                                     <td><%= order.receivedByWarehouseAt %></td>
                                     <td><%= order.sentByWarehouseAt %></td>
+                                    <td><%= order.deliveredByLogisticsAt %></td>
                                     <td><%= order.status %></td>
                                     <td>
                                         <form action="/searchOrder" method="get">
